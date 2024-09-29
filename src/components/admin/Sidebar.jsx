@@ -11,6 +11,7 @@ import { TbCurrencyDollar } from "react-icons/tb";
 import { FiUser } from "react-icons/fi";
 import { FaPlusCircle } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
+import './Sidebar.css'; 
 
 export const Sidebar = () => {
   const location = useLocation();
@@ -24,8 +25,8 @@ export const Sidebar = () => {
         <div className="profile flex items-center text-center justify-center gap-8 flex-col mb-8">
           <img src={User1} alt="" className="w-32 h-32 rounded-full object-cover" />
           <div>
-            <Title className="capitalize">Sunil B.K</Title>
-            <Caption>example@gmail.com</Caption>
+            <Title className="capitalize">S.Sanjay</Title>
+            <Caption>Sanjay2005@gmail.com</Caption>
           </div>
         </div>
 
@@ -49,7 +50,7 @@ export const Sidebar = () => {
                 <span>
                   <FaPlusCircle size={22} />
                 </span>
-                <span>Create Product</span>
+                <span>Add an Product</span>
               </CustomNavLink>
 
               {/* do it  */}

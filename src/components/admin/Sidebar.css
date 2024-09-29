@@ -1,0 +1,104 @@
+/* Sidebar Styles */
+.sidebar {
+    background-color: #f0f8ff; /* Light blue background */
+    color: #1e3a8a; /* Dark blue for text */
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Profile Section */
+.sidebar .profile {
+    background-color: #ffffff; /* White background for profile section */
+    border: 2px solid #1e3a8a; /* Dark blue border */
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.sidebar .profile img {
+    border: 4px solid #1e40af; /* Darker blue border for profile image */
+}
+
+.sidebar .profile div {
+    color: #1e3a8a; /* Dark blue for profile text */
+}
+
+.sidebar .profile .Title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.sidebar .profile .Caption {
+    font-size: 0.9rem;
+    color: #1e40af; /* Lighter blue for caption */
+}
+
+/* Nav Links */
+.sidebar a {
+    color: #1e3a8a; /* Dark blue for text */
+    background-color: #ffffff; /* White background */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    border-radius: 12px;
+    padding: 12px;
+    display: block;
+}
+
+/* Hover Effect: Beautiful color gradient and subtle scale */
+.sidebar a:hover {
+    background: linear-gradient(45deg, #ff0080, #ff8c00, #40e0d0); /* Gradient background on hover */
+    color: #ffffff; /* White text on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+/* Active link styling */
+.sidebar a.isActive {
+    background-color: #1e40af; /* Dark blue background for active link */
+    color: #ffffff; /* White text for active link */
+    box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3); /* Add shadow for active state */
+}
+
+/* Logout Button */
+.sidebar button {
+    background-color: #1e3a8a; /* Dark blue for logout button */
+    color: #ffffff; /* White text */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 12px;
+    border-radius: 12px;
+    width: 100%; /* Full width by default */
+}
+
+/* Logout Button Hover Effect */
+.sidebar button:hover {
+    background: linear-gradient(45deg, #ff0000, #ff7f50, #ff1493); /* Gradient effect on hover */
+    color: #ffffff;
+    transform: scale(1.05); /* Slight scaling on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */
+}
+
+/* General Link/Button Styles */
+.sidebar .flex.items-center {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    transition: border-radius 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect on the flex container */
+.sidebar .flex.items-center:hover {
+    background: linear-gradient(45deg, #32cd32, #00ced1, #1e90ff); /* Color gradient on hover */
+    color: #ffffff; /* Change text to white */
+    transform: scale(1.05); /* Slight scaling on hover */
+    border-radius: 50px; /* Subtle rounding effect */
+}
+
+/* Icon and text span styling */
+.sidebar .flex.items-center span {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
