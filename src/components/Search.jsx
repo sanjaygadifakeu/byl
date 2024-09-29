@@ -1,8 +1,10 @@
- /*import React, { useEffect, useState } from "react";
+/*        
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllCategory } from "../redux/fetaures/categorySlice";
 import { Loader } from "./common/Loader";
 import { getAllProduct } from "../redux/fetaures/productSlice";
+
 
 export const Search = () => {
   const dispatch = useDispatch();
@@ -41,7 +43,7 @@ export const Search = () => {
                 </button>
               ) : (
                 <button
-                  className={`flex justify-between gap-2 items-center text-sm bg-green-500 cursor-pointer py-1.5 rounded-md px-4 transition-colors ease-in-out duration-200 delay-200`}
+                  className={flex justify-between gap-2 items-center text-sm bg-green-500 cursor-pointer py-1.5 rounded-md px-4 transition-colors ease-in-out duration-200 delay-200}
                   onClick={handleViewAllClick}
                 >
                   View ALL
@@ -78,4 +80,6 @@ export const Search = () => {
     </>
   );
 };
- */
+
+
+*/
