@@ -30,42 +30,55 @@ export const menulists = [
     link: "Contact",
   },
 ];
-
 export const categorylists = [
   {
     id: 1,
     image: "../images/category/c1.png",
-    title: "watches",
+    title: "Watches",
+    description: "Discover our vast collection of stylish watches for all occasions.",
+    features: ["Water-resistant", "Multiple brands", "1-year warranty"],
   },
   {
     id: 2,
     image: "../images/category/c2.png",
-    title: "electronics",
+    title: "Electronics",
+    description: "Find the latest electronics and gadgets at unbeatable prices.",
+    features: ["Smartphones", "Laptops", "Home appliances"],
   },
   {
     id: 3,
     image: "../images/category/c3.png",
-    title: "sports",
+    title: "Sports",
+    description: "Get all your sporting goods and fitness equipment in one place.",
+    features: ["Gym gear", "Outdoor sports", "Activewear"],
   },
   {
     id: 4,
     image: "../images/category/c4.png",
-    title: "real estate",
+    title: "Real Estate",
+    description: "Explore prime real estate listings across the city.",
+    features: ["Residential", "Commercial", "Plots"],
   },
   {
     id: 5,
     image: "../images/category/c5.png",
-    title: "vehicle",
+    title: "Vehicle",
+    description: "Buy and sell vehicles from trusted dealers and individuals.",
+    features: ["Cars", "Bikes", "Electric vehicles"],
   },
   {
     id: 6,
     image: "../images/category/c6.png",
-    title: "jewelry",
+    title: "Jewelry",
+    description: "Browse our exquisite collection of fine jewelry.",
+    features: ["Gold", "Diamonds", "Custom designs"],
   },
   {
     id: 7,
     image: "../images/category/c7.png",
-    title: "clothes",
+    title: "Clothes",
+    description: "Shop the latest fashion trends for men, women, and children.",
+    features: ["Casual wear", "Formal wear", "Accessories"],
   },
 ];
 

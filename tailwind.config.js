@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#0088cc", // Telegram blue
-        secondary: "#ffffff", // White for backgrounds and text
-        accent: "#e3f2fd", // Light blue for backgrounds or subtle accents
-        text: "#000000", // Dark text for readability on white
-        gray_100: "#cfd8dc", // Light gray for borders or dividers
+        primary: "#0088cc",
+        green: "#0088cc",  // Telegram blue
+        green_100: "#D0EAF8",  // A lighter shade of Telegram blue
+        gray_100: "#6C7278",
+        text: "#222222",
       },
       boxShadow: {
         s1: "rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;",

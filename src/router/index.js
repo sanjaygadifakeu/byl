@@ -1,3 +1,5 @@
+import { CategorySlider } from "../components/hero/CategorySlider";
+
 export { PrivateRoute } from "./PrivateRoute";
 export { ScrollToTop } from "../utils/ScrollToTop";
 export { NotFound } from "../components/common/NotFound";
@@ -7,6 +9,8 @@ export { UserList } from "../admin/UserList";
 // Home Section
 export { CategoryCard } from "../components/cards/CategoryCard";
 export { CategorySlider } from "../components/hero/CategorySlider";
+
+
 export { Hero } from "../components/hero/Hero";
 export { Process } from "../components/hero/Process";
 export { TopCollection } from "../components/hero/TopCollection";

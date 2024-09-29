@@ -25,6 +25,7 @@ import {
   PrivateRoute,
 } from "./router/index.js";
 
+
 function App() {
   return (
     <>
@@ -36,6 +37,7 @@ function App() {
             element={
               <Layout>
                 <Home />
+                
               </Layout>
             }
           />
