@@ -1,0 +1,60 @@
+/* ProductList.css */
+
+/* Keyframes for sliding in */
+@keyframes productSlideIn {
+    0% {
+      transform: translateY(50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Class for sliding in */
+  .product-slide-in {
+    animation: productSlideIn 0.8s ease forwards;
+  }
+  
+  /* Grid container styling */
+  .product-home .grid {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .product-home .grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  /* Styling for product cards */
+  .product-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  /* ProductCard.css */
+
+/* Keyframes for sliding in */
+@keyframes productSlideIn {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Sliding animation class */
+.product-slide-in {
+  animation: productSlideIn 0.8s ease forwards;
+}
+  

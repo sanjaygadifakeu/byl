@@ -1,0 +1,19 @@
+/* ProductCard.css */
+
+/* Keyframes for sliding in */
+@keyframes productSlideIn {
+    0% {
+      transform: translateY(50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Sliding animation class */
+  .product-slide-in {
+    animation: productSlideIn 0.8s ease forwards;
+  }
+  

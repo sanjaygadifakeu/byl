@@ -7,6 +7,7 @@ import {
   DashboardLayout,
   Layout,
   CreateCategory,
+  CategorySlider,
   UpdateCategory,
   Catgeorylist,
   UpdateProductByAdmin,
@@ -37,6 +38,7 @@ function App() {
             element={
               <Layout>
                 <Home />
+                
                 
               </Layout>
             }

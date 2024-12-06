@@ -1,0 +1,38 @@
+  /* CategorySlider.css */
+
+  .category-slider .container {
+    position: relative; 
+  }
+
+  .category-card {
+    height: 200px; /* Adjust as needed */
+    perspective: 1000px; /* For 3D flip */
+  }
+
+  .category-card .front,
+  .category-card .back {
+    backface-visibility: hidden; /* Key for flip effect */
+    transition: transform 0.5s ease; 
+  }
+
+  .category-card:hover .front {
+    transform: rotateY(180deg); 
+  }
+
+  .category-card:hover .back {
+    transform: rotateY(0deg);
+  } 
+  .category-slider {
+    animation: fadeInUp 5s;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

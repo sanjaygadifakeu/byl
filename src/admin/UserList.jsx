@@ -42,8 +42,8 @@ export const UserList = () => {
           <tbody>
             <tr className="bg-white border-b hover:bg-gray-50">
               <td className="px-6 py-4">1</td>
-              <td className="px-6 py-4 capitalize">Sunil BK</td>
-              <td className="px-6 py-4">example@gmail.com</td>
+              <td className="px-6 py-4 capitalize">Keerthi Chandan</td>
+              <td className="px-6 py-4">Chandan Bhaiii</td>
               <td className="px-6 py-4 capitalize">Admin</td>
               <td className="px-6 py-4">
                 <ProfileCard>

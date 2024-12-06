@@ -62,7 +62,7 @@ export const Login = () => {
             </div>
           </div>
           <p className="text-center mt-5">
-            By clicking the signup button, you create a Cobiro account, and you agree to Cobiros <span className="text-green underline">Terms & Conditions</span> &
+            By clicking the signup button, you create a  account, and you agree to Cobiros <span className="text-green underline">Terms & Conditions</span> &
             <span className="text-green underline"> Privacy Policy </span> .
           </p>
         </form>

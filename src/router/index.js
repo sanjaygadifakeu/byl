@@ -1,4 +1,4 @@
-import { CategorySlider } from "../components/hero/CategorySlider";
+
 
 export { PrivateRoute } from "./PrivateRoute";
 export { ScrollToTop } from "../utils/ScrollToTop";

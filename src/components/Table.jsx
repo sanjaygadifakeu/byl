@@ -17,7 +17,7 @@ export const Table = () => {
                 Bidding ID
               </th>
               <th scope="col" className="px-6 py-3">
-                Bid Amount(USD)
+                Bid Amount(INR)
               </th>
               <th scope="col" className="px-6 py-3">
                 Image

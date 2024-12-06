@@ -54,8 +54,8 @@ export const Catgeorylist = () => {
                       </ProfileCard>
                     </div>
                     <div className="pl-3">
-                      <div className="text-base font-semibold capitalize"> Sunil BK</div>
-                      <div className="font-normal text-gray-500"> example@gmail.com</div>
+                      <div className="text-base font-semibold capitalize"> Sanjay</div>
+                      <div className="font-normal text-gray-500"> Sanjay sammy @gmail.com</div>
                     </div>
                   </div>
                 </td>
